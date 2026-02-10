@@ -14,9 +14,7 @@ function Login() {
       <PasswordInput />
 
       <div className="d-flex justify-content-end mb-3">
-        <a href="#" className="small text-decoration-none">
-          Forgot password?
-        </a>
+        <Link to="/forgetpassword" className="text-decoration-none">Forget Password</Link>
       </div>
 
       <SubmitButton text="Login" />
