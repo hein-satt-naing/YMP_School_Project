@@ -4,6 +4,7 @@ import Register from "./pages/Register";
 import TestPage from "./pages/TestPage";
 import ForgetPasswordPage from "./pages/ForgetPasswordPage";
 import ProfilePage from "./pages/ProfilePage";
+import SideBar from "./components/SideBar";
 
 function App () {
   return (
@@ -15,6 +16,7 @@ function App () {
       <Route path="/test" element={<TestPage />} />
       <Route path="/forgetpassword" element={<ForgetPasswordPage />} />
       <Route path="/profile" element={<ProfilePage />} />
+      <Route path="/sidebar" element={<SideBar />}></Route>
     </Routes>
   );
 }

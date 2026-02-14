@@ -1,14 +1,10 @@
-type ProfilePageProps = {
+type ProfIleSettingsProps = {
   userName: string;
   userEmail: string;
   userPhoneNumber: string;
 };
 
-function ProfileCard({
-  userName,
-  userEmail,
-  userPhoneNumber,
-}: ProfilePageProps) {
+function ProfileSettings({userName,userEmail,userPhoneNumber,}: ProfIleSettingsProps) {
   return (
     <>
       <div className="container vh-100 d-flex justify-content-end align-items-center">
@@ -30,4 +26,4 @@ function ProfileCard({
     </>
   );
 }
-export default ProfileCard;
+export default ProfileSettings;
